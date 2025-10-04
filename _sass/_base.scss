@@ -207,14 +207,15 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Adjust the position of the profile image
 .profile.float-right {
   margin-left: 1rem;
-  margin-top: -10px;
+  margin-top: -25px;
 }
 
 .profile.float-left {
   margin-right: 1rem;
-  margin-top: -10px;
+  margin-top: -25px;
 }
 
 @media (min-width: 576px) {
