@@ -25,4 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am Shuangqi, a Ph.D. student at EPFL, advised by [Dr. Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann/) and [Prof. Pascal Fua](https://people.epfl.ch/pascal.fua). My research interests lie in building steerable, reliable and explainable AI. Currently, I am working on scaling up <abbr title="Training Data Attribution helps identify which training examples most influence a model's predictions on specific test cases">Training Data Attribution (TDA)</abbr> so that we can build better LLMs in a data-driven way. If this sounds interesting to you, feel free to reach out and discuss with me!
+Hi! I am Shuangqi, a Ph.D. student at EPFL, advised by [Dr. Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann/) and [Prof. Pascal Fua](https://people.epfl.ch/pascal.fua). My research interests lie in building steerable, reliable and explainable AI. Currently, I am working on scaling up Training Data Attribution (TDA)[^1] so that we can build better LLMs in a data-driven way. If this sounds interesting to you, feel free to reach out and discuss with me!
+
+[^1]: Training Data Attribution helps identify which training examples most influence a model's predictions on specific test cases.
