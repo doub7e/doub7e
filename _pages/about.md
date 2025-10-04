@@ -25,17 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am Shuangqi, a Ph.D. student at EPFL, advised by [Dr. Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann/) and [Prof. Pascal Fua](https://people.epfl.ch/pascal.fua). My research interests lie in building steerable, reliable and explainable AI. Currently, I am working on scaling up <button type="button" class="btn btn-link p-0 align-baseline tda-popover" data-toggle="popover" data-trigger="focus" data-placement="top" data-html="true" data-content="Training Data Attribution quantifies which training examples most influence a model’s prediction for a given test case.">Training Data Attribution (TDA)</button> so that we can build better LLMs in a data-driven way. If this sounds interesting to you, feel free to reach out and discuss with me!
+Hi! I am Shuangqi, a Ph.D. student at EPFL, advised by [Dr. Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann/) and [Prof. Pascal Fua](https://people.epfl.ch/pascal.fua). My research interests lie in building steerable, reliable and explainable AI. Currently, I am working on scaling up <span role="button" tabindex="0" class="tda-popover" data-toggle="popover" data-trigger="focus" data-placement="top" data-html="true" data-content="Training Data Attribution quantifies which training examples most influence a model’s prediction for a given test case." style="text-decoration: underline; text-decoration-style: dotted; cursor: help;">Training Data Attribution (TDA)</span> so that we can build better LLMs in a data-driven way. If this sounds interesting to you, feel free to reach out and discuss with me!
 
 <script>
-window.addEventListener('load', function() {
-  if (window.jQuery && typeof jQuery.fn.popover === 'function') {
-    jQuery('[data-toggle="popover"]').popover();
-  } else if (window.bootstrap && window.bootstrap.Popover) {
-    var triggers = document.querySelectorAll('[data-toggle="popover"]');
-    Array.prototype.forEach.call(triggers, function(el){
-      new bootstrap.Popover(el);
-    });
-  }
-});
+// Popover initialized globally in assets/js/common.js
 </script>
