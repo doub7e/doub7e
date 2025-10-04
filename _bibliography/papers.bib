@@ -18,7 +18,7 @@
   author={Li, Shuangqi and Le, Hieu and Xu, Jingyi and Salzmann, Mathieu},
   tldr={Noises are important for diffusion-based models. We show that some random seeds are much more reliable than others, which can be used to generate useful training data.},
   abstract={Text-to-image diffusion models have demonstrated remarkable capability in generating realistic images from arbitrary text prompts. However, they often produce inconsistent results for compositional prompts such as "two dogs" or "a penguin on the right of a bowl". Understanding these inconsistencies is crucial for reliable image generation. In this paper, we highlight the significant role of initial noise in these inconsistencies, where certain noise patterns are more reliable for compositional prompts than others. Our analyses reveal that different initial random seeds tend to guide the model to place objects in distinct image areas, potentially adhering to specific patterns of camera angles and image composition associated with the seed. To improve the model's compositional ability, we propose a method for mining these reliable cases, resulting in a curated training set of generated images without requiring any manual annotation. By fine-tuning text-to-image models on these generated images, we significantly enhance their compositional capabilities. For numerical composition, we observe relative increases of 29.3\% and 19.5\% for Stable Diffusion and PixArt-\alpha, respectively. Spatial composition sees even larger gains, with 60.7\% for Stable Diffusion and 21.1\% for PixArt-\alpha.},
-  booktitle={The Thirteenth International Conference on Learning Representations},
+  journal={The Thirteenth International Conference on Learning Representations},
   presentation={Spotlight (top 4\%)},
   pdf={https://openreview.net/pdf?id=5BSlakturs},
   year={2024},
@@ -50,6 +50,7 @@
   pdf={https://arxiv.org/pdf/2205.06756},
   year={2022},
   preview="interlock-free-2.jpg",
+  selected={true},
 }
 
 
