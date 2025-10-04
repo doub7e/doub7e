@@ -190,6 +190,9 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if entry.tldr %}
+        <a class="tldr btn btn-sm z-depth-0" role="button">TL;DR</a>
+      {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
@@ -353,6 +356,13 @@
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
+      </div>
+    {% endif %}
+
+    {% if entry.tldr %}
+      <!-- Hidden TL;DR block -->
+      <div class="tldr hidden">
+        <p>{{ entry.tldr }}</p>
       </div>
     {% endif %}
 
