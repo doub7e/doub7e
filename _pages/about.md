@@ -27,7 +27,7 @@ latest_posts:
 
 Hi! I am Shuangqi, a Ph.D. student at EPFL, advised by [Dr. Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann/) and [Prof. Pascal Fua](https://people.epfl.ch/pascal.fua). My research interests lie in building steerable, reliable and explainable AI. Currently, I am working on scaling up <span role="button" tabindex="0" class="tda-popover" data-toggle="popover" data-trigger="focus" data-placement="top" data-html="true" data-content="Training Data Attribution aims to trace how model behaviors are influenced by different training examples." style="text-decoration: underline; text-decoration-style: dotted; cursor: help;">Training Data Attribution (TDA)</span> so that we can build better LLMs in a data-driven way. If this sounds interesting to you, feel free to reach out and discuss with me!
 
-Prior to studying a Ph.D. at EPFL, I received my Master's degree from EPFL and my Bachelor's degree from University of Electronic Science and Technology of China.
+Prior to starting my Ph.D. journey at EPFL, I received my Master's degree from EPFL and my Bachelor's degree from University of Electronic Science and Technology of China.
 
 <script>
 // Popover initialized globally in assets/js/common.js
