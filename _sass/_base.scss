@@ -210,12 +210,12 @@ ul.task-list input[type="checkbox"] {
 // Adjust the position of the profile image
 .profile.float-right {
   margin-left: 1rem;
-  margin-top: -25px;
+  margin-top: -35px;
 }
 
 .profile.float-left {
   margin-right: 1rem;
-  margin-top: -25px;
+  margin-top: -35px;
 }
 
 @media (min-width: 576px) {
@@ -782,6 +782,7 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 700;
         }
 
         > span.more-authors {
@@ -814,6 +815,13 @@ footer.sticky-bottom {
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
+      }
+
+      .presentation {
+        color: var(--global-theme-color);
+        font-style: normal;
+        font-weight: 600;
+        margin-top: 0.25rem;
       }
 
       .badges {

@@ -15,20 +15,25 @@
   title={Enhancing compositional text-to-image generation with reliable random seeds},
   author={Li, Shuangqi and Le, Hieu and Xu, Jingyi and Salzmann, Mathieu},
   abstract={Text-to-image diffusion models have demonstrated remarkable capability in generating realistic images from arbitrary text prompts. However, they often produce inconsistent results for compositional prompts such as "two dogs" or "a penguin on the right of a bowl". Understanding these inconsistencies is crucial for reliable image generation. In this paper, we highlight the significant role of initial noise in these inconsistencies, where certain noise patterns are more reliable for compositional prompts than others. Our analyses reveal that different initial random seeds tend to guide the model to place objects in distinct image areas, potentially adhering to specific patterns of camera angles and image composition associated with the seed. To improve the model's compositional ability, we propose a method for mining these reliable cases, resulting in a curated training set of generated images without requiring any manual annotation. By fine-tuning text-to-image models on these generated images, we significantly enhance their compositional capabilities. For numerical composition, we observe relative increases of 29.3\% and 19.5\% for Stable Diffusion and PixArt-\alpha, respectively. Spatial composition sees even larger gains, with 60.7\% for Stable Diffusion and 21.1\% for PixArt-\alpha.},
-  booktitle={The Thirteenth International Conference on Learning Representations (Spotlight)},
+  booktitle={The Thirteenth International Conference on Learning Representations},
   pdf={https://openreview.net/pdf?id=5BSlakturs},
   year={2024},
   selected={true},
+  abbr={ICLR Spotlight},
+  code={https://github.com/doub7e/Reliable-Random-Seeds},
 }
 
 @article{li2024controlling,
   title={Controlling the Fidelity and Diversity of Deep Generative Models via Pseudo Density},
   author={Li, Shuangqi and Liu, Chen and Zhang, Tong and Le, Hieu and S{\"u}sstrunk, Sabine and Salzmann, Mathieu},
   abstract={We introduce an approach to bias deep generative models, such as GANs and diffusion models, towards generating data with either enhanced fidelity or increased diversity. Our approach involves manipulating the distribution of training and generated data through a novel metric for individual samples, named pseudo density, which is based on the nearest-neighbor information from real samples. Our approach offers three distinct techniques to adjust the fidelity and diversity of deep generative models: 1) Per-sample perturbation, enabling precise adjustments for individual samples towards either more common or more unique characteristics; 2) Importance sampling during model inference to enhance either fidelity or diversity in the generated data; 3) Fine-tuning with importance sampling, which guides the generative model to learn an adjusted distribution, thus controlling fidelity and diversity. Furthermore, our fine-tuning method demonstrates the ability to improve the Frechet Inception Distance (FID) for pre-trained generative models with minimal iterations},
-  journal={Transactions on Machine Learning Research (presented as a poster at ICLR 2025)},
+  journal={Transactions on Machine Learning Research},
+  presentation={Selected for poster presentation at ICLR 2025},
   pdf={https://arxiv.org/pdf/2407.08659},
   year={2024},
   selected={true},
+  abbr={TMLR},
+  code={https://github.com/doub7e/Pseudo-Diversity},
 }
 
 @article{li2022interlock,
