@@ -25,6 +25,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am Shuangqi, a Ph.D. student at EPFL, advised by [Dr. Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann/) and [Prof. Pascal Fua](https://people.epfl.ch/pascal.fua). My research interests lie in building steerable, reliable and explainable AI. Currently, I am working on scaling up Training Data Attribution (TDA)[^1] so that we can build better LLMs in a data-driven way. If this sounds interesting to you, feel free to reach out and discuss with me!
+Hi! I am Shuangqi, a Ph.D. student at EPFL, advised by [Dr. Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann/) and [Prof. Pascal Fua](https://people.epfl.ch/pascal.fua). My research interests lie in building steerable, reliable and explainable AI. Currently, I am working on scaling up <a href="#" class="tda-popover" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top" data-bs-content="Training Data Attribution helps identify which training examples most influence a model's predictions on specific test cases." style="text-decoration: underline dotted; cursor: help;">Training Data Attribution (TDA)</a> so that we can build better LLMs in a data-driven way. If this sounds interesting to you, feel free to reach out and discuss with me!
 
-[^1]: Training Data Attribution helps identify which training examples most influence a model's predictions on specific test cases.
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl);
+  });
+});
+</script>
