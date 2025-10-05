@@ -1,30 +1,56 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shuangqi LI (李 双琪)",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "shuangqi.li@epfl.ch",
+    "phone": "",
+    "url": "",
+    "summary": "",
+    "languages": ["Chinese (Native)", "English (Fluent)", "French (Basic)"]
   },
-  "work": [
+  "education": [
+    {
+      "institution": "EPFL (Swiss Federal Institute of Technology of Lausanne)",
+      "location": "Lausanne, Switzerland",
+      "url": "https://www.epfl.ch/",
+      "area": "Machine Learning",
+      "studyType": "Ph.D.",
+      "startDate": "2022-09-01",
+      "endDate": "Present"
+    },
+    {
+      "institution": "EPFL (Swiss Federal Institute of Technology of Lausanne)",
+      "location": "Lausanne, Switzerland",
+      "url": "https://www.epfl.ch/",
+      "area": "Data Science",
+      "studyType": "Master",
+      "startDate": "2020-09-01",
+      "endDate": "2022-7-15"
+    },
+    {
+      "institution": "University of California, San Diego",
+      "location": "Remote",
+      "url": "https://www.ucsd.edu/",
+      "area": "Computer Science",
+      "studyType": "Master (Quit due to visa issue and COVID)",
+      "startDate": "2019-09-01",
+      "endDate": "2020-06-30"
+    },
+    {
+      "institution": "University of Electronic Science and Technology of China",
+      "location": "Chengdu, China",
+      "url": "https://en.uestc.edu.cn//",
+      "area": "Microelectronic Science and Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-01",
+      "endDate": "2019-06-30"
+    }
+  ],
+  "work experience": [
     {
       "name": "Institute for Advanced Study, Princeton University",
+      "location": "Princeton, USA",
       "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
       "startDate": "1933-01-01",
@@ -33,82 +59,13 @@
       "highlights": ["Relativity"]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+  "selected awards": [
     {
       "title": "Nobel Prize in Physics",
       "date": "1921-11-01",
       "awarder": "Royal Swedish Academy of Sciences",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
@@ -147,18 +104,6 @@
         "Quantum Communication",
         "Quantum Teleportation"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
     }
   ],
   "interests": [
