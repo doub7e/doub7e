@@ -108,16 +108,55 @@
       "position": "Student Teaching Assistant",
       "startDate": "2022-02",
       "endDate": "2022-06"
-    },
+    }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Efficient Training Data Attribution for Large Language Models",
+      "location": "EPFL, Lausanne, Switzerland",
+      "summary": "Training Data Attribution faces severe computational challenges for modern-sized LLMs. We improved conventional influence functions by exploiting the low-rank property of the gradient to make them more efficient and scalable.",
+      "note": "Ongoing research",
+      "startDate": "2025-08",
+      "endDate": "Present"
+    },
+    {
+      "name": "Improving Waste Detection and Sorting on Conveyor Belt",
+      "location": "WasteFlow, Lausanne, Switzerland",
+      "summary": "Supervising two projects: (1) YOLO uncertainty estimation and confidence recalibration and (2) real‑time object brand recognition on conveyor belts.",
+      "startDate": "2025-09",
+      "endDate": "Present"
+    },
+    {
+      "name": "Learning to Weight Parameters for Training Data Attribution",
+      "location": "EPFL, Lausanne, Switzerland",
+      "summary": "Revealed the heterogeneity of attribution strengths across parameters; proposed a method that learns to re-weight layers to amplify the true signal, boosting accuracy and enabling fine-grained (e.g., subject vs. style) attribution.",
+      "note": "Submitted to ICLR 2026",
+      "startDate": "2025-02",
+      "endDate": "2025-09"
+    },
+    {
+      "name": "Enhancing Compositional Text-to-Image Generation with Reliable Random Seeds",
+      "location": "EPFL, Lausanne, Switzerland",
+      "summary": "Identified the significant role of initial noise in text-to-image inconsistencies; proposed a method to mine reliable random seeds to improve text-to-image generation.",
+      "note": "ICLR 2025 Spotlight, top 4%",
+      "startDate": "2024-01",
+      "endDate": "2024-10"
+    },
+    {
+      "name": "Controlling the Fidelity and Diversity of Deep Generative Models via Pseudo Density",
+      "location": "EPFL, Lausanne, Switzerland",
+      "summary": "Proposed an approach to bias deep generative models, such as GANs and diffusion models, towards generating data with either enhanced fidelity or increased diversity.",
+      "note": "TMLR 2024 (Selected for poster presentation at ICLR 2025)",
+      "startDate": "2023-02",
+      "endDate": "2024-03"
+    },
+    {
+      "name": "Interlock-Free Multi-Aspect Rationalization for Text Classification",
+      "location": "EPFL, Lausanne, Switzerland",
+      "summary": "Proposed a multi-stage training method incorporating an additional self-supervised contrastive loss that helps to alleviate the interlocking issue and extract more semantically diverse rationales.",
+      "note": "Semester Project",
+      "startDate": "2021-09",
+      "endDate": "2022-02"
     }
   ],
   "awards": [
@@ -175,25 +214,25 @@
       "name": "Learning to Weight Parameters for Data Attribution",
       "publisher": "Arxiv",
       "releaseDate": "2025-06",
-      "url": "https://arxiv.org/pdf/2506.05647",
+      "url": "https://arxiv.org/pdf/2506.05647"
     },
     {
       "name": "Enhancing Compositional Text-to-Image Generation with Reliable Random Seeds",
       "publisher": "International Conference on Learning Representations",
       "releaseDate": "2024-10",
-      "url": "https://openreview.net/pdf?id=5BSlakturs",
+      "url": "https://openreview.net/pdf?id=5BSlakturs"
     },
     {
       "name": "Controlling the Fidelity and Diversity of Deep Generative Models via Pseudo Density",
       "publisher": "Transactions on Machine Learning Research",
       "releaseDate": "2024-07",
-      "url": "https://arxiv.org/pdf/2407.08659",
+      "url": "https://arxiv.org/pdf/2407.08659"
     },
     {
       "name": "Interlock-Free Multi-Aspect Rationalization for Text Classification",
       "publisher": "Arxiv",
       "releaseDate": "2022-05",
-      "url": "https://arxiv.org/pdf/2205.06756",
+      "url": "https://arxiv.org/pdf/2205.06756"
     }
   ]
 }
