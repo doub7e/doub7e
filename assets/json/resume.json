@@ -7,7 +7,7 @@
     "phone": "",
     "url": "",
     "summary": "",
-    "languages": ["Chinese (Native)", "English (Fluent)", "French (Basic)"]
+    "languages": ["Chinese (Native), English (Fluent), French (Basic)"]
   },
   "education": [
     {
@@ -33,7 +33,8 @@
       "location": "Remote",
       "url": "https://www.ucsd.edu/",
       "area": "Computer Science",
-      "studyType": "Master (Quit due to visa issue and COVID)",
+      "studyType": "Master",
+      "note": "(quit due to visa issues and COVID)",
       "startDate": "2019-09-01",
       "endDate": "2020-06-30"
     },
@@ -47,90 +48,67 @@
       "endDate": "2019-06-30"
     }
   ],
-  "work experience": [
+  "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "location": "Princeton, USA",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "selected awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Didi Chuxing (China's largest taxi-hailing platform)",
+      "location": "Beijing, China",
+      "position": "Algorithm Engineering Intern",
+      "startDate": "2018-10",
+      "endDate": "2019-02",
+      "summary": "Developed an algorithm for learning road segment weights from historical ride data, improving route planning quality for ride-hailing services."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Oracle Labs",
+      "location": "Zurich, Switzerland",
+      "position": "Research Intern",
+      "startDate": "2021-07",
+      "endDate": "2021-09",
+      "summary": "Developed and evaluated a machine learning model that detects anomalous Linux sessions in the cloud servers."
+    }
+  ],
+  "teaching": [
+    {
+      "name": "CS-233: Introduction to Machine Learning",
+      "location": "EPFL, Lausanne, Switzerland",
+      "position": "Head Teaching Assistant",
+      "startDate": "2025-02",
+      "endDate": "2025-06"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "CS-401: Applied Data Analysis",
+      "location": "EPFL, Lausanne, Switzerland",
+      "position": "Teaching Assistant",
+      "startDate": "2024-09",
+      "endDate": "2025-01"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
+      "name": "CS-233: Introduction to Machine Learning",
+      "location": "EPFL, Lausanne, Switzerland",
+      "position": "Teaching Assistant",
+      "startDate": "2024-02",
+      "endDate": "2024-06"
+    },
+    {
+      "name": "COM-407: TCP/IP Networking",
+      "location": "EPFL, Lausanne, Switzerland",
+      "position": "Teaching Assistant",
+      "startDate": "2023-09",
+      "endDate": "2024-01"
+    },
+    {
+      "name": "COM-112: Object-Oriented Programming (in C++)",
+      "location": "EPFL, Lausanne, Switzerland",
+      "position": "Teaching Assistant",
+      "startDate": "2023-02",
+      "endDate": "2023-06"
+    },
+    {
+      "name": "CS-456: Deep Reinforcement Learning",
+      "location": "EPFL, Lausanne, Switzerland",
+      "position": "Student Teaching Assistant",
+      "startDate": "2022-02",
+      "endDate": "2022-06"
+    },
   ],
   "projects": [
     {
@@ -140,6 +118,82 @@
       "startDate": "2018-01-01",
       "endDate": "2018-01-01",
       "url": "https://example.com"
+    }
+  ],
+  "awards": [
+    {
+      "title": "National Scholarship",
+      "date": "2018-09"
+    },
+    {
+      "title": "China Collegiate Programming Contest - Gold Medal",
+      "date": "2018-05"
+    },
+    {
+      "title": "China Collegiate Computing Contest - First Prize",
+      "date": "2018-03"
+    },
+    {
+      "title": "First-class People's Scholarship",
+      "date": "2017-12"
+    },
+    {
+      "title": "ACM International Collegiate Programming Contest (Asia Regional) - Bronze Medal",
+      "date": "2017-10"
+    },
+    {
+      "title": "China Collegiate Computing Contest (Group Programming Ladder Tournament) - First Prize",
+      "date": "2017-04"
+    },
+    {
+      "title": "First-class People's Scholarship",
+      "date": "2016-12"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "C++"
+      ]
+    },
+    {
+      "name": "Frameworks & Tools",
+      "keywords": [
+        "PyTorch",
+        "Cursor",
+        "Claude Code",
+        "Docker",
+        "Git",
+        "Linux"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Learning to Weight Parameters for Data Attribution",
+      "publisher": "Arxiv",
+      "releaseDate": "2025-06",
+      "url": "https://arxiv.org/pdf/2506.05647",
+    },
+    {
+      "name": "Enhancing Compositional Text-to-Image Generation with Reliable Random Seeds",
+      "publisher": "International Conference on Learning Representations",
+      "releaseDate": "2024-10",
+      "url": "https://openreview.net/pdf?id=5BSlakturs",
+    },
+    {
+      "name": "Controlling the Fidelity and Diversity of Deep Generative Models via Pseudo Density",
+      "publisher": "Transactions on Machine Learning Research",
+      "releaseDate": "2024-07",
+      "url": "https://arxiv.org/pdf/2407.08659",
+    },
+    {
+      "name": "Interlock-Free Multi-Aspect Rationalization for Text Classification",
+      "publisher": "Arxiv",
+      "releaseDate": "2022-05",
+      "url": "https://arxiv.org/pdf/2205.06756",
     }
   ]
 }
