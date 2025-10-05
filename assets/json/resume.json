@@ -115,13 +115,13 @@
       "name": "Efficient Training Data Attribution for Large Language Models",
       "location": "EPFL",
       "summary": "Training Data Attribution faces severe computational challenges for modern-sized LLMs. We improved conventional influence functions by exploiting the low-rank property of the gradient to make them more efficient and scalable.",
-      "note": "Ongoing research",
+      "note": "Ongoing\nresearch",
       "startDate": "2025-08",
       "endDate": "Present"
     },
     {
       "name": "Improving Waste Detection and Sorting on Conveyor Belt",
-      "location": "WasteFlow, Switzerland",
+      "location": "WasteFlow,\nSwitzerland",
       "summary": "Supervising two projects: (1) YOLO uncertainty estimation and confidence recalibration and (2) real‑time object brand recognition on conveyor belts.",
       "startDate": "2025-09",
       "endDate": "Present"
@@ -138,7 +138,7 @@
       "name": "Enhancing Compositional Text-to-Image Generation with Reliable Random Seeds",
       "location": "EPFL",
       "summary": "Identified the significant role of initial noise in text-to-image inconsistencies; proposed a method to mine reliable random seeds to improve text-to-image generation.",
-      "note": "ICLR 2025 Spotlight, top 4%",
+      "note": "ICLR 2025\nSpotlight",
       "startDate": "2024-01",
       "endDate": "2024-10"
     },
@@ -146,7 +146,7 @@
       "name": "Controlling the Fidelity and Diversity of Deep Generative Models via Pseudo Density",
       "location": "EPFL",
       "summary": "Proposed an approach to bias deep generative models, such as GANs and diffusion models, towards generating data with either enhanced fidelity or increased diversity.",
-      "note": "TMLR 2024 (Selected for poster presentation at ICLR 2025)",
+      "note": "TMLR 2024\nPoster at ICLR 2025",
       "startDate": "2023-02",
       "endDate": "2024-03"
     },
@@ -154,7 +154,7 @@
       "name": "Interlock-Free Multi-Aspect Rationalization for Text Classification",
       "location": "EPFL",
       "summary": "Proposed a multi-stage training method incorporating an additional self-supervised contrastive loss that helps to alleviate the interlocking issue and extract more semantically diverse rationales.",
-      "note": "Semester Project",
+      "note": "Semester\nproject",
       "startDate": "2021-09",
       "endDate": "2022-02"
     }
