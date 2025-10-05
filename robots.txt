@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://doub7e.github.io/sitemap.xml
+Sitemap: https://lishuangqi.com/sitemap.xml
