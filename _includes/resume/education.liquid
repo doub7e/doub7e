@@ -31,6 +31,13 @@
                   </td>
                 </tr>
               {% endif %}
+              {% if content.note %}
+                <tr>
+                  <td>
+                    <div style="font-size: 0.9rem">{{ content.note }}</div>
+                  </td>
+                </tr>
+              {% endif %}
             </tbody>
           </table>
         </div>
